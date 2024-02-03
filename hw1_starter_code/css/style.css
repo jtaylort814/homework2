@@ -1,0 +1,90 @@
+
+  main{
+    min-height: 100px;
+      }
+
+  h1 {
+    font-family: Lucida Handwriting;
+    text-align: center;
+  }
+        
+  nav a{
+    text-decoration: underline;  
+  }
+
+/*  
+li{
+  background-color: yellow;
+}
+*/
+
+header {
+  background-color: #cbd6d6;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+header img {
+  position: relative;
+  top: 20px;
+  width: 10%;
+}
+
+
+nav {
+  display: inline-block;
+  width: 80%;
+  }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+}
+
+.grid-container img {
+  width: 100%;
+}
+
+.flex {    
+  display: flex; 
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  }
+
+     
+footer {
+  background-color: #cbd6d6;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
